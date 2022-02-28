@@ -30,10 +30,7 @@ export default function App() {
           <Stack.Screen name="Inscription" component={Inscription} />
           <Stack.Screen name="Accueil" component={Accueil} />
           <Stack.Screen name="Signal" component={Signal} />
-          <Stack.Screen
-            name="ResetPasswordScreen"
-            component={ResetPasswordScreen}
-          />
+          <Stack.Screen name="ResetPasswordScreen" component={ResetPasswordScreen} />
           
         </Stack.Navigator>
       </NavigationContainer>
